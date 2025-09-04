@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlproject"
+version = "0.0.1"
+description = "My ML project"
+authors = [
+  { name="devangm2005-jpg", email="devangm2005@gmail.com" }
+]
+
+dependencies = [
+  "pandas",
+  "numpy",
+  "seaborn",
+  "matplotlib"
+]
+
+[tool.setuptools]
+packages = ["mlproject"]
