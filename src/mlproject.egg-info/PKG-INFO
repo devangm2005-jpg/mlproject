@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: mlproject
+Version: 0.0.1
+Summary: My ML project
+Author: devangm2005-jpg
+Author-email: devangm2005-jpg <devangm2005@gmail.com>
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Dynamic: author
