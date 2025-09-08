@@ -1,0 +1,12 @@
+[2025-09-08 10:01:25,654] 24 root - INFO - Entered the data ingestion method or components
+[2025-09-08 10:01:25,659] 27 root - INFO - Read the dataset as dataframe
+[2025-09-08 10:01:25,665] 33 root - INFO - Train test split initiated
+[2025-09-08 10:01:25,672] 40 root - INFO - Ingestion of data is completed
+[2025-09-08 10:01:25,714] 74 root - INFO - Read train and test data completed
+[2025-09-08 10:01:25,714] 76 root - INFO - Obtaining preprocessing object
+[2025-09-08 10:01:25,714] 53 root - INFO - Categorical columns ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2025-09-08 10:01:25,714] 54 root - INFO - Numerial columns ['writing_score', 'reading_score']
+[2025-09-08 10:01:25,719] 89 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[2025-09-08 10:01:25,742] 103 root - INFO - Saved preprocessing object.
+[2025-09-08 10:01:25,746] 32 root - INFO - Split training and test input data
+[2025-09-08 10:01:33,709] 67 root - INFO - Best found model on both training and testing dataset
